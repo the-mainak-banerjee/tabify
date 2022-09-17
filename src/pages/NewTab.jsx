@@ -1,9 +1,10 @@
 import React from 'react'
+import { Suggestions } from '../components'
 
 const NewTab = () => {
   return (
     <div>
-      New Tab Page
+      <Suggestions/>
     </div>
   )
 }
