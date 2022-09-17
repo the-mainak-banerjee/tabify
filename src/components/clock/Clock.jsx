@@ -31,9 +31,8 @@ export const Clock = () => {
 
     return(
         <div className='tabify-clock'>
-            <text className='tabify-clock-time'>{time}</text>
-            <br/>
-            <text className='tabify-clock-date'>{day}, {month}{date}, {year}</text>
+            <p className='tabify-clock-time'>{time}</p>
+            <p className='tabify-clock-date'>{day}, {month}{date}, {year}</p>
         </div>
     )
 }
