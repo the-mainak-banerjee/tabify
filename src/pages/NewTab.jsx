@@ -1,5 +1,5 @@
 import React from 'react'
-import { Clock, Greetings, Quote, SearchBar, Suggestions } from '../components'
+import { Clock, Greetings, Quote, SearchBar, Suggestions, Weather } from '../components'
 
 const NewTab = () => {
   return (
@@ -9,6 +9,7 @@ const NewTab = () => {
       <SearchBar/>
       <Clock/>
       <Quote/>
+      <Weather/>
     </React.Fragment>
   )
 }

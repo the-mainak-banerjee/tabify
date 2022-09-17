@@ -1,0 +1,16 @@
+.tabify-weather{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 10px;
+    cursor: pointer;
+}
+
+.tabify-weather-temp{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.tabify-weather-location{
+    margin: 0;
+}
