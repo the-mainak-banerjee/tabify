@@ -1,8 +1,8 @@
 .tabify-suggestions{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 50vw;
+    justify-content: space-evenly;
+    width: 30vw;
 
 }
 
