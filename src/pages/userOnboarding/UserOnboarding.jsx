@@ -8,7 +8,7 @@ const UserOnboarding = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         localStorage.setItem('tabify-name', name)
-        window.location.reload(false)
+        window.location.reload()
     }
 
   return (

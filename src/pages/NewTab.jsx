@@ -8,8 +8,8 @@ const NewTab = () => {
       <Greetings/>
       <SearchBar/>
       <Clock/>
-      <Quote/>
       <Weather/>
+      <Quote/>
     </React.Fragment>
   )
 }

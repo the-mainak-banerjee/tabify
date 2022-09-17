@@ -4,6 +4,7 @@
     position: fixed;
     left: 10px;
     cursor: pointer;
+    /* margin-top: 2rem; */
 }
 
 .tabify-weather-temp{

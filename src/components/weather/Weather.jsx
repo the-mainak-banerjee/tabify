@@ -18,14 +18,15 @@ export const Weather = () => {
     })
 
     useEffect(() => {
-        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=bf09dcf340ea6674c2c611d84581f8c2
+        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_WEATHER_API}
         `).then(res => res.json()).then(data => {
             setLocation(data?.name)
-            setTemp(Math.round(data?.main.temp - 273.15))
+            setTemp(Math.round(data?.main?.temp - 273.15))
             setIcon(data?.weather[0]?.icon)
             setWeatherType(data?.weather[0]?.main)
             setCountry(data?.sys?.country)
-        }).catch(error => console.log('Can"t Get Weather Data Now'))
+
+        }).catch(error => console.log('Can"t Get Weather Data Now', error))
     })
 
     const handleCheckWeather = () => {

@@ -22,7 +22,7 @@ export const Suggestions = () => {
             {suggestedItems.map(item => {
                 return(
                     <a key={item.name} href={item.url} className='tabify-suggestions-item'>
-                        <text className='tabify-suggestions-name'>{item.name}</text>
+                        <p className='tabify-suggestions-name'>{item.name}</p>
                     </a>
                 )
             })}

@@ -17,7 +17,7 @@ export const SearchBar = () => {
   return (
     <div className='tabify-search'>
         <form onSubmit={handleSearch} className='tabify-search-form'>
-            <input type='text' placeholder='Search On Web' value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} className='tabify-search-input'/>
+            <input type='text' placeholder='Search On The Web...' value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} className='tabify-search-input'/>
             <BsSearch className='tabify-search-icon'/>
         </form>
     </div>
