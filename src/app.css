@@ -1,4 +1,5 @@
 .app{
     background-color: aqua;
     color: black;
+    min-height: 100vh;
 }
