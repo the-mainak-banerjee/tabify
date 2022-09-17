@@ -2,6 +2,7 @@
     background-color: aqua;
     color: black;
     min-height: 100vh;
-    width: full;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
