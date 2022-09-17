@@ -1,0 +1,20 @@
+.tabify-onboarding{
+    margin-top: 20rem;
+    text-align: center;
+}
+
+.tabify-onboarding-text{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.tabify-onboarding-input{
+    border: 0;
+    border-bottom: 2px solid rgb(76, 76, 76) ;
+    outline: 0;
+    background-color: transparent;
+    font-size: 3rem;
+    width: 450px;
+    padding: 5px;
+}
