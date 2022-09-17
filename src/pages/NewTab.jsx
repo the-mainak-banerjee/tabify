@@ -1,10 +1,11 @@
 import React from 'react'
-import { Clock, Quote, SearchBar, Suggestions } from '../components'
+import { Clock, Greetings, Quote, SearchBar, Suggestions } from '../components'
 
 const NewTab = () => {
   return (
     <React.Fragment>
       <Suggestions/>
+      <Greetings/>
       <SearchBar/>
       <Clock/>
       <Quote/>
