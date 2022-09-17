@@ -6,18 +6,23 @@ export const Greetings = () => {
 
     const { time } = useTime()
     const [greet,setGreet] = useState()
+    const [name,setName] = useState(null)
 
-    // console.log(time.indexOf('AM'))
+    useEffect(() => {
+      const name = localStorage.getItem('tabify-name')
+      setName(name)
+    },[])
+  
 
     useEffect(() => {
         if(time?.charAt(0) <= 11 && time?.indexOf('AM') > 0){
-            setGreet('🌞 Good Morning 🌞 Mainak!!!')
+            setGreet(`🌞 Good Morning 🌞 ${name}!!!`)
         }else if(time?.charAt(0) > 11 && time?.charAt(0) < 5 && time?.indexOf('PM') > 0){
-            setGreet('🌤️ Good Afternoon 🌤️ Mainak!!!')
+            setGreet(`🌤️ Good Afternoon 🌤️ ${name}!!!`)
         }else if(time?.charAt(0) > 5 && time?.indexOf('PM') > 0){
-            setGreet('🌜 Good Evening 🌛 Mainak !!!')
+            setGreet(`🌜 Good Evening 🌛 ${name} !!!`)
         }
-    },[time])
+    },[time,name])
 
   return (
     <div className='tabify-greetings'>
