@@ -4,8 +4,10 @@
 
 .tabify-clock-time{
     font-size: 6rem;
+    margin: 0;
 }
 
 .tabify-clock-date{
     font-size: 2.3rem;
+    margin: 0;
 }
