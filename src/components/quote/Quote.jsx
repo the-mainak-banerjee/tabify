@@ -1,6 +1,7 @@
 import React, { useState} from 'react'
 import { useEffect } from 'react'
 import { allQuotes } from '../../database/quotesData'
+import './quote.css'
 
 export const Quote = () => {
 
@@ -16,9 +17,9 @@ export const Quote = () => {
     },[])
 
   return (
-    <div>
-        <q>{quote.text}</q>
-        <p>-{quote.author}</p>
+    <div className='tabify-quote'>
+        <q className='tabify-quote-text'>{quote.text}</q>
+        <p className='tabify-quote-author'>-{quote.author}</p>
     </div>
   )
 }

@@ -3,12 +3,12 @@ import { Clock, Quote, SearchBar, Suggestions } from '../components'
 
 const NewTab = () => {
   return (
-    <div>
+    <React.Fragment>
       <Suggestions/>
       <SearchBar/>
       <Clock/>
       <Quote/>
-    </div>
+    </React.Fragment>
   )
 }
 

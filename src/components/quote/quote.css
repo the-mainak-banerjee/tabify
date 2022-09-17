@@ -1,0 +1,14 @@
+.tabify-quote{
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.tabify-quote-text{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.tabify-quote-author{
+    text-align: right;
+    padding-right: 1rem;
+}
