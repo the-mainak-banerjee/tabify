@@ -1,0 +1,21 @@
+.tabify-search-form{
+    
+    position: relative;
+}
+
+.tabify-search-input{
+    border: 0;
+    border-bottom: 1px solid black ;
+    outline: 0;
+    background-color: transparent;
+    width: auto;
+    font-size: 1.2rem;
+}
+
+
+
+/* .tabify-search-icon{
+    position: absolute;
+    right: 1px;
+    color: grey;
+} */

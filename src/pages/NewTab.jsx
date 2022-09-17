@@ -1,10 +1,11 @@
 import React from 'react'
-import { Clock, Quote, Suggestions } from '../components'
+import { Clock, Quote, SearchBar, Suggestions } from '../components'
 
 const NewTab = () => {
   return (
     <div>
       <Suggestions/>
+      <SearchBar/>
       <Clock/>
       <Quote/>
     </div>

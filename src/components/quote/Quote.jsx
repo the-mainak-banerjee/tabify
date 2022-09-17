@@ -1,6 +1,6 @@
 import React, { useState} from 'react'
 import { useEffect } from 'react'
-import { allQuotes } from '../../database/QuotesData'
+import { allQuotes } from '../../database/quotesData'
 
 export const Quote = () => {
 
